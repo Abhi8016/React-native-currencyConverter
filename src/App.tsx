@@ -22,7 +22,7 @@ const App = () => {
   const buttonPressed = (targetValue: Currency) => {
     if (!inputValue) {
       return Snackbar.show({
-        text: 'Enter Value to Convert',
+        text: 'Enter a Value to Convert',
         backgroundColor: '#EA7773',
         textColor: 'black',
       });
